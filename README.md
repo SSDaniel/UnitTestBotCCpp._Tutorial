@@ -1,4 +1,4 @@
-# UnitTestBotCCpp_Tutorial
+# UnitTestBotCCpp Tutorial and Testing
 
 UTBotCpp is 
 You can try online here!
