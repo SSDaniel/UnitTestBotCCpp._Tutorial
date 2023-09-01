@@ -1,29 +1,35 @@
 # UnitTestBotCCpp Tutorial and Testing
 
-UTBotCpp is 
-You can try online here!
+## Guia Rápido 
+- [What is](#WhatIs)
+- [A Tool Ready To Use](#AToolReadyToUse)
+- [Testing the test](#TestingTheTest)
+- [Target](#Target)
+- [Features](#Features)
+- [Worth it?](#Worthit?)
+- [Where It Came From?](#WhereItCameFrom?)
+
+
+## What is
+UnitTestBot (aka UTBot) tool provides engineers with a simple 1-mouse-click way to automatically generate unit tests and visualize coverage for projects written in C and C++ Programming Languages. It is an IDE extension (the client) paired with server application. The tool uses symbolic execution for test cases generation. UTBot uses KLEE Symbolic Virtual Machine enchanced with a new advanced bidirectional symbolic execution algorithm developed by Research Group from Saint Petersburg State University. Tests are generated in form of Google Test Framework.
+
+## A Tool Ready To Use
+You can try drectly online here:
+https://www.utbot.org/demo
 
 Or 
 
-Inject to your VS Code:
+Use the tool in your VS Code following the guide : https://github.com/UnitTestBot/UTBotCpp/wiki/Intro
 
-Notice:
-For now, you can only use UTBot under Ubuntu 18.04 and above. 
-
-
-Navigate to the Releases GitHub page and download last version of UTBot.
-
-Latest version: https://github.com/UnitTestBot/UTBotCpp/releases
-
-A pack utbot_distr.tar.gz that contains UTBot binary and its dependencies;
-
-To install UTBot VSCode plugin, use VSCode Install from VSIX command.UTBot plugin for Visual Studio code — utbot_plugin.vsix;
-
-On the terminal, run script unpack_and_run_utbot.sh.
-*To launch UTBot, unzip the archive and run the ./unpack_and_run_utbot.sh command. We recommend doing it in a fresh directory to make UTBot removing easier. Like that, just to remove UTBot, simply delete this directory.
-
-
-For testing the tool, two similar programs has been written, in both, a RPM increase is implemented. One has a simple functions, without library functions 
+## Testing the test
 
 
 
+## Target
+
+## Features
+
+
+## Worth it?
+
+## Where It Came From?
