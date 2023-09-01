@@ -28,7 +28,7 @@ int main() {
 
     printf("Starting RPM control...\n");
 
-    while (1) {
+    for(int count=0;count < 100000000; count++) {
         // Simulated RPM sensor reading
         float reading = current + (rand() % 201 - 100); // Simulates RPM variation
 

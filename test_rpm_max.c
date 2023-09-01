@@ -7,6 +7,10 @@
 #include "gtest/gtest.h"
 
 namespace UTBot {
+// Some tests for function 'main' were skipped, as execution of function is out of timeout.
+
+// Tests for main were not generated. Maybe the function is too complex.
+
 
 
 #pragma region regression
@@ -14,12 +18,6 @@ TEST(regression, calculateControl_test_1)
 {
     float actual = calculateControl(0.000000e+00, 0.000000e+00, 0.000000e+00);
     EXPECT_FLOAT_EQ(0.000000e+00, actual);
-}
-
-TEST(regression, main_test_1)
-{
-    int actual = main();
-    EXPECT_EQ(0, actual);
 }
 
 #pragma endregion
