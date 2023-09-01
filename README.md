@@ -23,6 +23,16 @@ Use the tool in your VS Code following the guide : https://github.com/UnitTestBo
 
 ## Testing the test
 
+To test the capabilities and limitations of the tool, two RPM increment codes were developed, aiming to simulate this task in an automotive ECU. The first code is called rpm_simple is based on a simple value increment.The second includes additional elements such as correction and error factors, And it is called as rpm_max. 
+
+Both codes were subjected to the automatic test case generation tool, and their codes can be seen in this directory as test_rpm_max and test_rpm_simple.
+
+
+
+
+
+
+
 
 
 ## Target
